@@ -11,7 +11,7 @@ import {
 import Genre from "./Home/Genre";
 import Education from "./Home/Education";
 import Sports from "./Home/Sports";
-
+// import Biology from "./Home/"
 function App() {
   return (
     <div className="App">
@@ -27,7 +27,7 @@ function App() {
 
           <Route path="/sports" component={Sports} />
             
-          {/* <Route path="/sports" component={Sports} /> */}
+          {/* <Route path="/biology" component={Biology} /> */}
           <Redirect to="/" />
         </Switch>
       </Router>

@@ -8,10 +8,10 @@ import music from "../img/music.svg";
 import fashion from "../img/fashion.svg";
 import astronomy from "../img/astronomy.svg";
 import animalenthu from "../img/animalenthu.svg";
-import plantenthu from "../img/plantenthu.svg";
+// import plantenthu from "../img/plantenthu.svg";
 import dance from "../img/dance.svg";
 import { Link} from "react-router-dom";
-
+import stilldoubt from "../img/StillDoubt.svg";
 function Genre() {
   return (
     <div className="Genre">
@@ -54,8 +54,8 @@ function Genre() {
           <Card.Text>Dance</Card.Text>
         </Card>
         <Card className="Card" style={{ width: '10rem' }}>
-          <Card.Img variant="top" src={plantenthu} />
-          <Card.Text>PLant Enthusiast</Card.Text>
+          <Card.Img variant="top" src={stilldoubt}/>
+          <Card.Text>Still Don't know?</Card.Text>
         </Card>
       </CardGroup>
     </div>
