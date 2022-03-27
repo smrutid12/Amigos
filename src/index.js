@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// import './index.css';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './Home/Home';
+import Genre from './Home/Genre';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+
+      <Route path="/genre" element={<Genre/>} />
+
+      {/* <Route path="/committee" element={<CommitteePage />} /> */}
+    </Routes>
+  </BrowserRouter>
+  </>,
   document.getElementById('root')
 );
 

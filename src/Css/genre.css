@@ -1,0 +1,21 @@
+.Genre{
+    background-color:#473c38;
+}
+.Card{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+}
+.Card>img{
+    width: 180px;
+    height: 180px;
+    margin-left:auto ;
+    margin-right: auto;
+}
+Link{
+    text-decoration: none;
+}
